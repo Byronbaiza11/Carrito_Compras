@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Carrito_Compras" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=MELKY\SQLEXPRESS;Initial Catalog=Carrito_Compras;Integrated Security=True" SettingsObjectName="CapaDatos.Properties.Settings" SettingsPropertyName="Carrito_ComprasConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Tbl_Usuario" Member="Tbl_Usuario">
+    <Type Name="Tbl_Usuario">
+      <Column Name="usu_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="usu_nombre" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="usu_correo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="usu_pass" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="usu_direccion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="usu_nick" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="usu_telefono" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="usu_estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="tusu_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Tbl_Usuario_Tbl_Pedido" Member="Tbl_Pedido" ThisKey="usu_id" OtherKey="usu_id" Type="Tbl_Pedido" />
+      <Association Name="Tbl_TipoUsuario_Tbl_Usuario" Member="Tbl_TipoUsuario" ThisKey="tusu_id" OtherKey="tusu_id" Type="Tbl_TipoUsuario" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_TipoUsuario" Member="Tbl_TipoUsuario">
+    <Type Name="Tbl_TipoUsuario">
+      <Column Name="tusu_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tusu_nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="tusu_estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Association Name="Tbl_TipoUsuario_Tbl_Usuario" Member="Tbl_Usuario" ThisKey="tusu_id" OtherKey="tusu_id" Type="Tbl_Usuario" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_Proveedor" Member="Tbl_Proveedor">
+    <Type Name="Tbl_Proveedor">
+      <Column Name="prov_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="prov_nombre" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="prov_estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Association Name="Tbl_Proveedor_Tbl_Pedido" Member="Tbl_Pedido" ThisKey="prov_id" OtherKey="usu_id" Type="Tbl_Pedido" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_Producto" Member="Tbl_Producto">
+    <Type Name="Tbl_Producto">
+      <Column Name="pro_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="pro_nombre" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="pro_cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pro_estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="pro_descripcion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="pro_precio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pro_foto" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="pro_tipo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Association Name="Tbl_Producto_Tbl_Pedido" Member="Tbl_Pedido" ThisKey="pro_id" OtherKey="pro_id" Type="Tbl_Pedido" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_Pedido" Member="Tbl_Pedido">
+    <Type Name="Tbl_Pedido">
+      <Column Name="ped_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ped_fecha" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ped_estado" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ped_total" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="pro_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="usu_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Tbl_Pedido_Tbl_DetallePedido" Member="Tbl_DetallePedido" ThisKey="ped_id" OtherKey="ped_id" Type="Tbl_DetallePedido" />
+      <Association Name="Tbl_Producto_Tbl_Pedido" Member="Tbl_Producto" ThisKey="pro_id" OtherKey="pro_id" Type="Tbl_Producto" IsForeignKey="true" />
+      <Association Name="Tbl_Proveedor_Tbl_Pedido" Member="Tbl_Proveedor" ThisKey="usu_id" OtherKey="prov_id" Type="Tbl_Proveedor" IsForeignKey="true" />
+      <Association Name="Tbl_Usuario_Tbl_Pedido" Member="Tbl_Usuario" ThisKey="usu_id" OtherKey="usu_id" Type="Tbl_Usuario" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_DetallePedido" Member="Tbl_DetallePedido">
+    <Type Name="Tbl_DetallePedido">
+      <Column Name="det_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="det_preciounitario" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="det_cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ped_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Tbl_Pedido_Tbl_DetallePedido" Member="Tbl_Pedido" ThisKey="ped_id" OtherKey="ped_id" Type="Tbl_Pedido" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
