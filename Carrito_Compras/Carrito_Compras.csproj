@@ -107,6 +107,7 @@
     <Content Include="js\parallax.min.js" />
     <Content Include="main.aspx" />
     <Content Include="pedido.aspx" />
+    <Content Include="prueba.html" />
     <Content Include="vendor\animate\animate.css" />
     <Content Include="vendor\animsition\css\animsition.css" />
     <Content Include="vendor\animsition\css\animsition.min.css" />
