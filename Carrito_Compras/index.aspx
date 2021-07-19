@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="Carrito_COmpras.index" %>
 
-<!DOCTYPE html>
+<%--<!DOCTYPE html>--%>
 <html lang="en">
 <head>
 	<title>Login </title>
