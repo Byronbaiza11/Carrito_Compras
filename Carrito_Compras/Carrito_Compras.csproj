@@ -72,8 +72,10 @@
     <Content Include="contact.aspx" />
     <Content Include="css\all.min.css" />
     <Content Include="css\main.css" />
+    <Content Include="css\main1.css" />
     <Content Include="css\templatemo-style.css" />
     <Content Include="css\util.css" />
+    <Content Include="css\util1.css" />
     <Content Include="fonts\font-awesome-4.7.0\css\font-awesome.css" />
     <Content Include="fonts\font-awesome-4.7.0\css\font-awesome.min.css" />
     <Content Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
@@ -82,7 +84,11 @@
     <Content Include="fonts\iconic\css\material-design-iconic-font.min.css" />
     <Content Include="fonts\iconic\fonts\Material-Design-Iconic-Font.svg" />
     <Content Include="imagenes\bg-01.jpg" />
+    <Content Include="imagenes\fondo123.jpg" />
+    <Content Include="imagenes\icons\facebook.png" />
     <Content Include="imagenes\icons\favicon.ico" />
+    <Content Include="imagenes\icons\icon-google.png" />
+    <Content Include="imagenes\icons\map-marker.png" />
     <Content Include="img\about-01.jpg" />
     <Content Include="img\about-02.jpg" />
     <Content Include="img\about-03.jpg" />
@@ -107,6 +113,8 @@
     <Content Include="index.aspx" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\main.js" />
+    <Content Include="js\main1.js" />
+    <Content Include="js\map-custom.js" />
     <Content Include="js\parallax.min.js" />
     <Content Include="main.aspx" />
     <Content Include="pedido.aspx" />
