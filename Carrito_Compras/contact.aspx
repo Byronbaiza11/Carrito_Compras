@@ -25,21 +25,22 @@ https://templatemo.com/tm-539-simple-house
 	<!-- Top box -->
 		<!-- Logo & Site Name -->
 		<div class="placeholder">
-			<div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.jpg">
-				<div class="tm-header">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/sistem/portada02.jpg">
+				<div class="tm-header" runat="server">
 					<div class="row tm-header-inner">
 						<div class="col-md-6 col-12">
-							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
 							<div class="tm-site-text-box">
-								<h1 class="tm-site-title">Simple House</h1>
-								<h6 class="tm-site-description">new restaurant template</h6>	
+								<h1 class="tm-site-title">B & C S.A</h1>
+								<h6 class="tm-site-description">Tu tienda OnLine</h6>	
 							</div>
 						</div>
-						<nav class="col-md-6 col-12 tm-nav">
+						
+						<nav class=" col-md-6 col-12 tm-nav ">
 							<ul class="tm-nav-ul">
-								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link">Home</a></li>
-								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
-								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link active">Contact</a></li>
+								<li class="tm-nav-li"><a href="index.aspx" class="tm-nav-link ">Iniciar Sesión</a></li>
+								<li class="tm-nav-li"><a href="main.aspx" class="tm-nav-link ">Home</a></li>
+								<li class="tm-nav-li"><a href="about.aspx" class="tm-nav-link">Nosotros</a></li>
+								<li class="tm-nav-li"><a href="contact.aspx" class="tm-nav-link">Contactenos</a></li>
 							</ul>
 						</nav>	
 					</div>
@@ -146,9 +147,8 @@ https://templatemo.com/tm-539-simple-house
 		</main>
 
 		<footer class="tm-footer text-center">
-			<p>Copyright &copy; 2020 Simple House 
+			<p>Copyright &copy; 2021 B&C S.A 
             
-            | Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
 		</footer>
 	</div>
 	<script src="js/jquery.min.js"></script>

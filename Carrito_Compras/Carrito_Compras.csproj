@@ -101,6 +101,9 @@
     <Content Include="img\img-01.jpg" />
     <Content Include="img\simple-house-01.jpg" />
     <Content Include="img\simple-house-logo.png" />
+    <Content Include="img\sistem\aboutus.jpg" />
+    <Content Include="img\sistem\portada01.jpg" />
+    <Content Include="img\sistem\portada02.jpg" />
     <Content Include="index.aspx" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\main.js" />

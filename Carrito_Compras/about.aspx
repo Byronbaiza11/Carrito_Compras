@@ -23,48 +23,51 @@ https://templatemo.com/tm-539-simple-house
 
 	<div class="container">
 	<!-- Top box -->
-		<!-- Logo & Site Name -->
+		<!-- Nav Bar -->
 		<div class="placeholder">
-			<div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.jpg">
-				<div class="tm-header">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/sistem/portada02.jpg">
+				<div class="tm-header" runat="server">
 					<div class="row tm-header-inner">
 						<div class="col-md-6 col-12">
-							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
 							<div class="tm-site-text-box">
-								<h1 class="tm-site-title">Simple House</h1>
-								<h6 class="tm-site-description">new restaurant template</h6>	
+								<h1 class="tm-site-title">B & C S.A</h1>
+								<h6 class="tm-site-description">Tu tienda OnLine</h6>	
 							</div>
 						</div>
-						<nav class="col-md-6 col-12 tm-nav">
+						
+						<nav class=" col-md-6 col-12 tm-nav ">
 							<ul class="tm-nav-ul">
-								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link">Home</a></li>
-								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link active">About</a></li>
-								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link">Contact</a></li>
+								<li class="tm-nav-li"><a href="index.aspx" class="tm-nav-link ">Iniciar Sesión</a></li>
+								<li class="tm-nav-li"><a href="main.aspx" class="tm-nav-link ">Home</a></li>
+								<li class="tm-nav-li"><a href="about.aspx" class="tm-nav-link">Nosotros</a></li>
+								<li class="tm-nav-li"><a href="contact.aspx" class="tm-nav-link">Contactenos</a></li>
 							</ul>
 						</nav>	
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> <!-- Nav Bar -->
 
 		<main>
 			<header class="row tm-welcome-section">
-				<h2 class="col-12 text-center tm-section-title">About Simple House</h2>
-				<p class="col-12 text-center">This is about page of simple house template. 
-                You can modify and use this HTML template for your website. Total 3 HTML pages included in this template. Header image has a parallax effect.</p>
+				<h2 class="col-12 text-center tm-section-title">Acerca de B&C S.A</h2>
+				<p class="col-12 text-center">Es un Carrito de compras diseñado para el ejercicio de programación 
+					y poner en practica la programacion web
+				</p>
 			</header>
 
 			<div class="tm-container-inner tm-persons">
 				<div class="row">
+					<!--Persona 1 -->
 					<article class="col-lg-6">
 						<figure class="tm-person">
 							<img src="img/about-01.jpg" alt="Image" class="img-fluid tm-person-img" />
 							<figcaption class="tm-person-description">
-								<h4 class="tm-person-name">Jennifer Soft</h4>
-								<p class="tm-person-title">Founder and CEO</p>
-								<p class="tm-person-about">Vivamus cursus leo nec sem feugiat sagittis.
-								Duis ut feugiat odio, sit amet accumsan
-								odio.</p>
+								<h4 class="tm-person-name">Danny Herrera</h4>
+								<p class="tm-person-title">Programador</p>
+								<p class="tm-person-about">Estudiante de Quinto nivel de la carrera
+									Tecnologia Superior en Desarrollo de Software
+								</p>
 								<div>
 									<a href="https://fb.com" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
 									<a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
@@ -72,61 +75,34 @@ https://templatemo.com/tm-539-simple-house
 								</div>
 							</figcaption>
 						</figure>
-					</article>
+					</article> <!--Persona 1 -->
+
+					<!--Persona 2 -->
 					<article class="col-lg-6">
 						<figure class="tm-person">
 							<img src="img/about-02.jpg" alt="Image" class="img-fluid tm-person-img" />
 							<figcaption class="tm-person-description">
-								<h4 class="tm-person-name">Daisy Walker</h4>
-								<p class="tm-person-title">Executive Chef</p>
-								<p class="tm-person-about">Praesent non vulputate elit. Orci varius
-								natoque et magnis dis parturient, nascetur ridiculus mus.</p>
-								<div>
-									<a href="https://fb.com" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
-									<a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
-								</div>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-6">
-						<figure class="tm-person">
-							<img src="img/about-03.jpg" alt="Image" class="img-fluid tm-person-img" />
-							<figcaption class="tm-person-description">
-								<h4 class="tm-person-name">Florence Nelson</h4>
-								<p class="tm-person-title">Kitchen Manager</p>
-								<p class="tm-person-about">Aenean sapien sem, ultricies sed vulputate
-								et, auctor vel mauris. Integer sit amet diam eget est facilisis lacinia vitae.</p>
-								<div>
-									<a href="https://fb.com" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
-									<a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
-								</div>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-6">
-						<figure class="tm-person">
-							<img src="img/about-04.jpg" alt="Image" class="img-fluid tm-person-img" />
-							<figcaption class="tm-person-description">
-								<h4 class="tm-person-name">Valentina Martin</h4>
-								<p class="tm-person-title">Culinary Director</p>
-								<p class="tm-person-about">Praesent non vulputate elit. Orci varius
-								natoque penatibus et magnis montes, nascetur ridiculus mus.</p>
+								<h4 class="tm-person-name">Byron Baiza</h4>
+								<p class="tm-person-title">Programador</p>
+								<p class="tm-person-about">Estudiante de Quinto nivel de la carrera
+									Tecnologia Superior en Desarrollo de Software
+								</p>
 								<div>
 									<a href="https://fb.com" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
 									<a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
 									<a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
-									<a href="https://youtube.com" class="tm-social-link"><i class="fab fa-youtube tm-social-icon"></i></a>
 								</div>
 							</figcaption>
 						</figure>
-					</article>
+					</article> <!--Persona 2 -->
+					
 				</div>
 			</div>
 			<div class="tm-container-inner tm-featured-image">
 				<div class="row">
 					<div class="col-12">
 						<div class="placeholder-2">
-							<div class="parallax-window-2" data-parallax="scroll" data-image-src="img/about-05.jpg"></div>		
+							<div class="parallax-window-2" data-parallax="scroll" data-image-src="img/sistem/aboutus.jpg"></div>		
 						</div>
 					</div>
 				</div>
@@ -173,9 +149,8 @@ https://templatemo.com/tm-539-simple-house
 		</main>
 
 		<footer class="tm-footer text-center">
-			<p>Copyright &copy; 2020 Simple House 
+			<p>Copyright &copy; 2021 B&C S.A 
             
-            | Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
 		</footer>
 	</div>
 	<script src="js/jquery.min.js"></script>
