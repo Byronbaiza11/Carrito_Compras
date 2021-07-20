@@ -61,13 +61,14 @@ https://templatemo.com/tm-539-simple-house
 					<!--Persona 1 -->
 					<article class="col-lg-6">
 						<figure class="tm-person">
-							<img src="img/about-01.jpg" alt="Image" class="img-fluid tm-person-img" />
-							<figcaption class="tm-person-description">
-								<h4 class="tm-person-name">Danny Herrera</h4>
-								<p class="tm-person-title">Programador</p>
-								<p class="tm-person-about">Estudiante de Quinto nivel de la carrera
+							 <img src="img/sistem/n3.jpg" alt="Image" class="img-fluid tm-person-img" style="height: 15rem" />
+                            <figcaption class="tm-person-description">
+                                <h4 class="tm-person-name">Danny Herrera</h4>
+                                <p class="tm-person-title">Programador</p>
+                                <p class="tm-person-about">
+                                    Estudiante de Quinto nivel de la carrera
 									Tecnologia Superior en Desarrollo de Software
-								</p>
+                                </p>
 								<div>
 									<a href="https://fb.com" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
 									<a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
@@ -80,13 +81,14 @@ https://templatemo.com/tm-539-simple-house
 					<!--Persona 2 -->
 					<article class="col-lg-6">
 						<figure class="tm-person">
-							<img src="img/about-02.jpg" alt="Image" class="img-fluid tm-person-img" />
-							<figcaption class="tm-person-description">
-								<h4 class="tm-person-name">Byron Baiza</h4>
-								<p class="tm-person-title">Programador</p>
-								<p class="tm-person-about">Estudiante de Quinto nivel de la carrera
+							<img src="img/sistem/byron02.jpeg" alt="Image" class="img-fluid tm-person-img" style="height: 15rem"/>
+                            <figcaption class="tm-person-description">
+                                <h4 class="tm-person-name">Byron Baiza</h4>
+                                <p class="tm-person-title">Programador</p>
+                                <p class="tm-person-about">
+                                    Estudiante de Quinto nivel de la carrera
 									Tecnologia Superior en Desarrollo de Software
-								</p>
+                                </p>
 								<div>
 									<a href="https://fb.com" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
 									<a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
@@ -108,44 +110,56 @@ https://templatemo.com/tm-539-simple-house
 				</div>
 			</div>
 			<div class="tm-container-inner tm-features">
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="tm-feature">
-							<i class="fas fa-4x fa-pepper-hot tm-feature-icon"></i>
-							<p class="tm-feature-description">Donec sed orci fermentum, convallis lacus id, tempus elit. Sed eu neque accumsan, porttitor arcu a, interdum est. Donec in risus eu ante.</p>
-							<a href="index.html" class="tm-btn tm-btn-primary">Read More</a>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="tm-feature">
-							<i class="fas fa-4x fa-seedling tm-feature-icon"></i>
-							<p class="tm-feature-description">Maecenas pretium rutrum molestie. Duis dignissim egestas turpis sit. Nam sed suscipit odio. Morbi in dolor finibus, consequat nisl eget.</p>
-							<a href="index.html" class="tm-btn tm-btn-success">Read More</a>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="tm-feature">
-							<i class="fas fa-4x fa-cocktail tm-feature-icon"></i>
-							<p class="tm-feature-description">Morbi in dolor finibus, consequat nisl eget, pretium nunc. Maecenas pretium rutrum molestie. Duis dignissim egestas turpis sit.</p>
-							<a href="index.html" class="tm-btn tm-btn-danger">Read More</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="tm-container-inner tm-history">
-				<div class="row">
-					<div class="col-12">
-						<div class="tm-history-inner">
-							<img src="img/about-06.jpg" alt="Image" class="img-fluid tm-history-img" />
-							<div class="tm-history-text"> 
-								<h4 class="tm-history-title">History of our restaurant</h4>
-								<p class="tm-mb-p">Sed ligula risus, interdum aliquet imperdiet sit amet, auctor sit amet justo. Maecenas posuere lorem id augue interdum vehicula. Praesent sed leo eget libero ultricies congue.</p>
-								<p>Redistributing this template as a downloadable ZIP file on any template collection site is strictly prohibited. You will need to <a href="https://templatemo.com/contact">contact TemplateMo</a> for additional permissions about our templates. Thank you.</p>
-							</div>
-						</div>	
-					</div>
-				</div>
-			</div>
+                <div class="row">
+                    <!-- Mision -->
+                    <div class="col-lg-4">
+                        <div class="tm-feature">
+                            <i class="fas fa-4x fa-pepper-hot tm-feature-icon"></i>
+                            <h3  class="tm-history-title">Misión</h3>
+                            <p class="tm-feature-description">
+                                Empresa dedicada a la asesoría total para la integración de equipos informáticos asegurando 
+                                la satisfacción del cliente con un trabajo desarrollado por personal capacitado.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Mision -->
+
+                    <!-- Vision -->
+                    <div class="col-lg-4">
+                        <div class="tm-feature">
+                            <i class="fas fa-4x fa-seedling tm-feature-icon"></i>
+                            <h3  class="tm-history-title">Visión</h3>
+                            <p class="tm-feature-description">Ser una empresa líder en el mercado, ganar un reconocimiento en el mercado de manera nacional.</p>
+                        </div>
+                    </div>
+                    <!-- Vision -->
+
+                    <!-- Objetivo -->
+                    <div class="col-lg-4">
+                        <div class="tm-feature">
+                            <i class="fas fa-4x fa-cocktail tm-feature-icon"></i>
+                            <h3  class="tm-history-title">Objetivo</h3>
+                            <p class="tm-feature-description">Morbi in dolor finibus, consequat nisl eget, pretium nunc. Maecenas pretium rutrum molestie. Duis dignissim egestas turpis sit.</p>
+                        </div>
+                    </div>
+                    <!-- Objetivo -->
+                </div>
+            </div>
+			 <div class="tm-container-inner tm-history">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tm-history-inner">
+                            <img src="img/about-06.jpg" alt="Image" class="img-fluid tm-history-img" />
+                            <div class="tm-history-text">
+                                <h4 class="tm-history-title">Nuestra Historia</h4>
+                                <p class="tm-mb-p">La empresa PC A LA CARTA S.A. se dedica a la venta de partes y repuestos de computación por medio de un centro de
+                                    atención al cliente, en el cual se le brindará soporte al usuario para armar la PC ideal, 
+                                    de acuerdo a sus necesidades y presupuesto. La empresa brindará una amplia gama de partes, para gusto y necesidad del cliente.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</main>
 
 		<footer class="tm-footer text-center">
