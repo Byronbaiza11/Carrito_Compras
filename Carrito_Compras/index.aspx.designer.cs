@@ -7,7 +7,7 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace Carrito_COmpras
+namespace Carrito_Compras
 {
 
 
