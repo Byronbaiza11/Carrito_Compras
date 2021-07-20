@@ -54,7 +54,7 @@
 					<br />
 					<br />
 					<br />
-					<asp:Button ID="btn_olvido" Visible="false" class="login100-form-btn" runat="server" Text="Recuperar Contraseña"  />
+					<asp:Button ID="btn_olvido" Visible="false" class="login100-form-btn" runat="server" Text="Recuperar Contraseña"/>
 					<br />
 					<br />
 					 <asp:LinkButton ID="lnk_olvido" runat="server">Olvido su Contraseña</asp:LinkButton>
@@ -62,16 +62,15 @@
 				</div>
 					<br />
 			       <div class="text-center">
-					    <asp:LinkButton ID="lnk_registrar"  runat="server" >Registrar Nuevo Usuario</asp:LinkButton>
+					    <asp:LinkButton ID="lnk_registrar"  runat="server">Registrar Nuevo Usuario</asp:LinkButton>
 						<br />
-					<asp:LinkButton ID="lnk_volver"  Visible="false" runat="server"> </asp:LinkButton>
+					<asp:LinkButton ID="lnk_volver"  Visible="false" runat="server">Volver</asp:LinkButton>
 					   <br />
 					<asp:Label ID="lbl_mensaje" ForeColor="Red" runat="server" Text=""></asp:Label>
 					   <br />
 					    <asp:Label ID="lbl_intento" runat="server" Visible="false" Text="Intentos: "></asp:Label>
 				 <asp:Label ID="Label1"  ForeColor="Red" runat="server" Visible="false" Text="0"></asp:Label>
                     </div>
-                   
                </ContentTemplate>
                 </asp:UpdatePanel>
 		</form>

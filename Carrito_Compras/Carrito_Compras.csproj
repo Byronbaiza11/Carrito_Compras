@@ -119,6 +119,7 @@
     <Content Include="main.aspx" />
     <Content Include="pedido.aspx" />
     <Content Include="prueba.html" />
+    <Content Include="Registrar_Usuario.aspx" />
     <Content Include="vendor\animate\animate.css" />
     <Content Include="vendor\animsition\css\animsition.css" />
     <Content Include="vendor\animsition\css\animsition.min.css" />
@@ -191,6 +192,13 @@
       <DependentUpon>pedido.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registrar_Usuario.aspx.cs">
+      <DependentUpon>Registrar_Usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registrar_Usuario.aspx.designer.cs">
+      <DependentUpon>Registrar_Usuario.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
