@@ -1,28 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Carrito_Compras" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
   <Connection Mode="AppSettings" ConnectionString="Data Source=MELKY\SQLEXPRESS;Initial Catalog=Carrito_Compras;Integrated Security=True" SettingsObjectName="CapaDatos.Properties.Settings" SettingsPropertyName="Carrito_ComprasConnectionString" Provider="System.Data.SqlClient" />
-  <Table Name="dbo.Tbl_Usuario" Member="Tbl_Usuario">
-    <Type Name="Tbl_Usuario">
-      <Column Name="usu_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="usu_nombre" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
-      <Column Name="usu_correo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
-      <Column Name="usu_pass" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
-      <Column Name="usu_direccion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
-      <Column Name="usu_nick" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
-      <Column Name="usu_telefono" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
-      <Column Name="usu_estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
-      <Column Name="tusu_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Association Name="Tbl_Usuario_Tbl_Pedido" Member="Tbl_Pedido" ThisKey="usu_id" OtherKey="usu_id" Type="Tbl_Pedido" />
-      <Association Name="Tbl_TipoUsuario_Tbl_Usuario" Member="Tbl_TipoUsuario" ThisKey="tusu_id" OtherKey="tusu_id" Type="Tbl_TipoUsuario" IsForeignKey="true" />
-    </Type>
-  </Table>
-  <Table Name="dbo.Tbl_TipoUsuario" Member="Tbl_TipoUsuario">
-    <Type Name="Tbl_TipoUsuario">
-      <Column Name="tusu_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="tusu_nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="tusu_estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
-      <Association Name="Tbl_TipoUsuario_Tbl_Usuario" Member="Tbl_Usuario" ThisKey="tusu_id" OtherKey="tusu_id" Type="Tbl_Usuario" />
-    </Type>
-  </Table>
   <Table Name="dbo.Tbl_Proveedor" Member="Tbl_Proveedor">
     <Type Name="Tbl_Proveedor">
       <Column Name="prov_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -65,6 +42,30 @@
       <Column Name="det_cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Column Name="ped_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Association Name="Tbl_Pedido_Tbl_DetallePedido" Member="Tbl_Pedido" ThisKey="ped_id" OtherKey="ped_id" Type="Tbl_Pedido" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_TipoUsuario" Member="Tbl_TipoUsuario">
+    <Type Name="Tbl_TipoUsuario">
+      <Column Name="tusu_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tusu_nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="tusu_estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Association Name="Tbl_TipoUsuario_Tbl_Usuario" Member="Tbl_Usuario" ThisKey="tusu_id" OtherKey="tusu_id" Type="Tbl_Usuario" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_Usuario" Member="Tbl_Usuario">
+    <Type Name="Tbl_Usuario">
+      <Column Name="usu_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="usu_cedula" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="usu_nombre" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="usu_correo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="usu_contraseña" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="usu_direccion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="usu_nick" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="usu_telefono" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="usu_estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="tusu_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Tbl_Usuario_Tbl_Pedido" Member="Tbl_Pedido" ThisKey="usu_id" OtherKey="usu_id" Type="Tbl_Pedido" />
+      <Association Name="Tbl_TipoUsuario_Tbl_Usuario" Member="Tbl_TipoUsuario" ThisKey="tusu_id" OtherKey="tusu_id" Type="Tbl_TipoUsuario" IsForeignKey="true" />
     </Type>
   </Table>
 </Database>
