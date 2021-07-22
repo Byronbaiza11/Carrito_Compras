@@ -37,9 +37,9 @@
 				<asp:TextBox ID="txt_correo" class="input100" placeholder="Ingrese su Correo" runat="server" required></asp:TextBox>
                 <asp:DropDownList ID="ddl_tusu" runat="server"></asp:DropDownList>
 				<div class="container-login100-form-btn">
-					 <asp:Button ID="btn_registrar" class="login100-form-btn" runat="server" Text="Registrar" />
+					 <asp:Button ID="btn_registrar" class="login100-form-btn" runat="server" Text="Registrar" OnClick="btn_registrar_Click" />
 				</div>
-                        <asp:LinkButton ID="lkn_regresar" runat="server" >Regresar</asp:LinkButton>
+                        <asp:LinkButton ID="lkn_regresar" runat="server" OnClick="lkn_regresar_Click" >Regresar</asp:LinkButton>
 						<br />
 						<center>
                         <asp:Label ID="lbl_mensaje" runat="server" visible="false" Text=""></asp:Label>

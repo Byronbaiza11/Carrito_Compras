@@ -50,21 +50,21 @@
 
 				<div class="container-login100-form-btn">
 					
-                    <asp:Button ID="btn_ingresar" class="login100-form-btn" runat="server" Text="Ingresar"  />
+                    <asp:Button ID="btn_ingresar" class="login100-form-btn" runat="server" Text="Ingresar" OnClick="btn_ingresar_Click"  />
 					<br />
 					<br />
 					<br />
-					<asp:Button ID="btn_olvido" Visible="false" class="login100-form-btn" runat="server" Text="Recuperar Contraseña"/>
+					<asp:Button ID="btn_olvido" Visible="false" class="login100-form-btn" runat="server" Text="Recuperar Contraseña" OnClick="btn_olvido_Click"/>
 					<br />
 					<br />
-					 <asp:LinkButton ID="lnk_olvido" runat="server">Olvido su Contraseña</asp:LinkButton>
+					 <asp:LinkButton ID="lnk_olvido" runat="server" OnClick="lnk_olvido_Click">Olvido su Contraseña</asp:LinkButton>
 					
 				</div>
 					<br />
 			       <div class="text-center">
-					    <asp:LinkButton ID="lnk_registrar"  runat="server">Registrar Nuevo Usuario</asp:LinkButton>
+					    <asp:LinkButton ID="lnk_registrar"  runat="server" OnClick="lnk_registrar_Click">Registrar Nuevo Usuario</asp:LinkButton>
 						<br />
-					<asp:LinkButton ID="lnk_volver"  Visible="false" runat="server">Volver</asp:LinkButton>
+					<asp:LinkButton ID="lnk_volver"  Visible="false" runat="server" OnClick="lnk_volver_Click">Volver</asp:LinkButton>
 					   <br />
 					<asp:Label ID="lbl_mensaje" ForeColor="Red" runat="server" Text=""></asp:Label>
 					   <br />
