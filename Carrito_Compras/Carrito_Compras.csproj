@@ -70,6 +70,7 @@
   <ItemGroup>
     <Content Include="about.aspx" />
     <Content Include="Administrador.aspx" />
+    <Content Include="AdminPag\Usuarios.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="css\all.min.css" />
     <Content Include="css\main.css" />
@@ -162,6 +163,13 @@
     </Compile>
     <Compile Include="Administrador.aspx.designer.cs">
       <DependentUpon>Administrador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPag\Usuarios.aspx.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPag\Usuarios.aspx.designer.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
     </Compile>
     <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>

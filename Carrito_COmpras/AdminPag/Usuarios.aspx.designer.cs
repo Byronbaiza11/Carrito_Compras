@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace Carrito_COmpras
+namespace Carrito_COmpras.AdminPag
 {
 
 
-    public partial class pedido
+    public partial class Usuarios
     {
 
         /// <summary>

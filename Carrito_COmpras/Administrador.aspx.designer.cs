@@ -11,7 +11,7 @@ namespace Carrito_COmpras
 {
 
 
-    public partial class pedido
+    public partial class Administrador
     {
 
         /// <summary>
