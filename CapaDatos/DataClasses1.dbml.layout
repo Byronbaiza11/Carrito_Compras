@@ -53,24 +53,24 @@
         <elementListCompartment Id="869b2254-de71-4e61-9ebd-23835ee7ec53" absoluteBounds="0.765, 1.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="4b77617b-d14c-442b-baf2-91c77bd20947" absoluteBounds="3.625, 1.25, 2, 2.7324039713541666">
+    <classShape Id="b985e6d2-de4a-4e44-a07e-aafb5b410d78" absoluteBounds="3.375, 1.125, 2, 2.9247054036458331">
       <DataClassMoniker Name="/DataClasses1DataContext/Tbl_Usuario" />
       <nestedChildShapes>
-        <elementListCompartment Id="731b77fa-e124-41c9-92f5-62e8ae06168d" absoluteBounds="3.6399999999999997, 1.71, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="bd6fe001-1e08-45b4-ac38-91fd27c4a182" absoluteBounds="3.3899999999999997, 1.585, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(5.625 : 2.23159912109375); (6.25 : 2.23159912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(5.375 : 2.23159912109375); (6.25 : 2.23159912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/DataClasses1DataContext/Tbl_Usuario/Tbl_Usuario_Tbl_Pedido" />
       <nodes>
-        <classShapeMoniker Id="4b77617b-d14c-442b-baf2-91c77bd20947" />
+        <classShapeMoniker Id="b985e6d2-de4a-4e44-a07e-aafb5b410d78" />
         <classShapeMoniker Id="4fde2003-a3a7-4840-9c6e-6c1f1e652856" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(2.75 : 2.19314697265625); (3.625 : 2.19314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(2.75 : 2.19314697265625); (3.375 : 2.19314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/DataClasses1DataContext/Tbl_TipoUsuario/Tbl_TipoUsuario_Tbl_Usuario" />
       <nodes>
         <classShapeMoniker Id="e7388d1b-c149-443c-95d5-3a4702734572" />
-        <classShapeMoniker Id="4b77617b-d14c-442b-baf2-91c77bd20947" />
+        <classShapeMoniker Id="b985e6d2-de4a-4e44-a07e-aafb5b410d78" />
       </nodes>
     </associationConnector>
   </nestedChildShapes>

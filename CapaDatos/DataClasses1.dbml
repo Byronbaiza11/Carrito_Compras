@@ -57,6 +57,7 @@
       <Column Name="usu_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
       <Column Name="usu_cedula" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
       <Column Name="usu_nombre" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="usu_apellido" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
       <Column Name="usu_correo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
       <Column Name="usu_contraseña" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
       <Column Name="usu_direccion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />

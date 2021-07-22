@@ -1179,6 +1179,8 @@ namespace CapaDatos
 		
 		private string _usu_nombre;
 		
+		private string _usu_apellido;
+		
 		private string _usu_correo;
 		
 		private string _usu_contraseña;
@@ -1207,6 +1209,8 @@ namespace CapaDatos
     partial void Onusu_cedulaChanged();
     partial void Onusu_nombreChanging(string value);
     partial void Onusu_nombreChanged();
+    partial void Onusu_apellidoChanging(string value);
+    partial void Onusu_apellidoChanged();
     partial void Onusu_correoChanging(string value);
     partial void Onusu_correoChanged();
     partial void Onusu_contraseñaChanging(string value);
@@ -1286,6 +1290,26 @@ namespace CapaDatos
 					this._usu_nombre = value;
 					this.SendPropertyChanged("usu_nombre");
 					this.Onusu_nombreChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_usu_apellido", DbType="VarChar(100)")]
+		public string usu_apellido
+		{
+			get
+			{
+				return this._usu_apellido;
+			}
+			set
+			{
+				if ((this._usu_apellido != value))
+				{
+					this.Onusu_apellidoChanging(value);
+					this.SendPropertyChanging();
+					this._usu_apellido = value;
+					this.SendPropertyChanged("usu_apellido");
+					this.Onusu_apellidoChanged();
 				}
 			}
 		}

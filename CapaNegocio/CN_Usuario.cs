@@ -8,7 +8,7 @@ using System.Data.Linq;
 
 namespace CapaNegocio
 {
-    class CN_Usuario
+   public class CN_Usuario
     {
         private static DataClasses1DataContext dc = new DataClasses1DataContext();
         public static bool autentificarNom(string nombre)
