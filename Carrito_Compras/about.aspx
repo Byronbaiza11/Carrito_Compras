@@ -7,7 +7,7 @@
 	<meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Simple House - About Page</title>
+    <title>Sobre Nosotros</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
     <link href="css/all.min.css" rel="stylesheet" />
 	<link href="css/templatemo-style.css" rel="stylesheet" />
@@ -30,7 +30,7 @@ https://templatemo.com/tm-539-simple-house
 					<div class="row tm-header-inner">
 						<div class="col-md-6 col-12">
 							<div class="tm-site-text-box">
-								<h1 class="tm-site-title">B & C S.A</h1>
+								<h1 class="tm-site-title">B&C S.A.</h1>
 								<h6 class="tm-site-description">Tu tienda OnLine</h6>	
 							</div>
 						</div>
@@ -50,7 +50,7 @@ https://templatemo.com/tm-539-simple-house
 
 		<main>
 			<header class="row tm-welcome-section">
-				<h2 class="col-12 text-center tm-section-title">Acerca de B&C S.A</h2>
+				<h2 class="col-12 text-center tm-section-title">Acerca de B&C S.A.</h2>
 				<p class="col-12 text-center">Es un Carrito de compras diseñado para el ejercicio de programación 
 					y poner en practica la programacion web
 				</p>
@@ -81,7 +81,7 @@ https://templatemo.com/tm-539-simple-house
 					<!--Persona 2 -->
 					<article class="col-lg-6">
 						<figure class="tm-person">
-							<img src="img/sistem/byron02.jpeg" alt="Image" class="img-fluid tm-person-img" style="height: 15rem"/>
+							<img src="img/sistem/byron03.jpg" alt="Image" class="img-fluid tm-person-img" style="height: 15rem"/>
                             <figcaption class="tm-person-description">
                                 <h4 class="tm-person-name">Byron Baiza</h4>
                                 <p class="tm-person-title">Programador</p>
@@ -117,8 +117,8 @@ https://templatemo.com/tm-539-simple-house
                             <i class="fas fa-4x fa-pepper-hot tm-feature-icon"></i>
                             <h3  class="tm-history-title">Misión</h3>
                             <p class="tm-feature-description">
-                                Empresa dedicada a la asesoría total para la integración de equipos informáticos asegurando 
-                                la satisfacción del cliente con un trabajo desarrollado por personal capacitado.
+                                Empresa dedicada ala venta de productos alimenticios, todo para su consumo basico
+								y brindando la mejor atencion posible.
                             </p>
                         </div>
                     </div>
@@ -152,9 +152,9 @@ https://templatemo.com/tm-539-simple-house
                             <img src="img/about-06.jpg" alt="Image" class="img-fluid tm-history-img" />
                             <div class="tm-history-text">
                                 <h4 class="tm-history-title">Nuestra Historia</h4>
-                                <p class="tm-mb-p">La empresa PC A LA CARTA S.A. se dedica a la venta de partes y repuestos de computación por medio de un centro de
-                                    atención al cliente, en el cual se le brindará soporte al usuario para armar la PC ideal, 
-                                    de acuerdo a sus necesidades y presupuesto. La empresa brindará una amplia gama de partes, para gusto y necesidad del cliente.</p>
+                                <p class="tm-mb-p">La empresa B&C S.A. se dedica a la venta de Productos alimenticios por medio de un centro de
+                                    atención al cliente, en el cual se le brindará el mejor servicio posible al usuario para armar su menú ideal, 
+                                    de acuerdo a sus necesidades y presupuesto. La empresa brindará una amplio menú, para gusto y necesidad del cliente.</p>
                             </div>
                         </div>
                     </div>
@@ -163,7 +163,7 @@ https://templatemo.com/tm-539-simple-house
 		</main>
 
 		<footer class="tm-footer text-center">
-			<p>Copyright &copy; 2021 B&C S.A 
+			<p>Copyright &copy; 2021 B&C S.A. 
             
 		</footer>
 	</div>
