@@ -75,9 +75,7 @@
                 </asp:UpdatePanel>
 		</form>
 			<div>
-				
-			
-           
+	    
             <br />
 				
 			</div>
