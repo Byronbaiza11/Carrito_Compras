@@ -259,7 +259,7 @@ https://templatemo.com/tm-539-simple-house
                     </article>
                     <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item" style="border-bottom: 5rem">
                         <figure>
-                            <img src="img/carrito/bebida01.jpg" alt="Image" class="img-fluid tm-gallery-img"  />
+                            <img src="img/carrito/bebida01.jpg" alt="Image" class="img-fluid tm-gallery-img" />
                             <figcaption>
                                 <h4 class="tm-gallery-title">Coca-Cola</h4>
                                 <div>
@@ -277,13 +277,13 @@ https://templatemo.com/tm-539-simple-house
                 <div id="tm-gallery-page-carrito" class="tm-gallery-page hidden">
                     <div class="row tm-welcome-section">
                         <h2>Detalle de La Compra</h2>
-                        <a href="#" class="tm-btn tm-btn-success" style="margin-left:6rem; margin-right:3rem">Pagar Factura</a>
+                        <a href="#" class="tm-btn tm-btn-success" style="margin-left: 6rem; margin-right: 3rem">Pagar Factura</a>
                         <asp:Label ID="Label1" runat="server" Text="$ 0" Font-Size="XX-Large"></asp:Label>
                     </div>
 
-                    <div >
+                    <div>
                         <article class=" tm-gallery" style="border-bottom: 5rem;">
-                            <table style="margin-left:15rem" >
+                            <table style="margin-left: 15rem">
                                 <thead>
                                     <tr style="text-align: center">
                                         <th scope="col" style="width: 3rem">Prod.</th>
@@ -297,7 +297,7 @@ https://templatemo.com/tm-539-simple-house
                                 <tbody>
                                     <tr style="text-align: center">
                                         <th scope="row">
-                                            <img src="img/carrito/hamb01.jpg" alt="Image" style="width:5rem" />
+                                            <img src="img/carrito/hamb01.jpg" alt="Image" style="width: 5rem" />
                                         </th>
                                         <td>Hamburguesa</td>
                                         <td>10</td>
@@ -308,14 +308,14 @@ https://templatemo.com/tm-539-simple-house
                                         </td>
                                     </tr>
                                     <tr style="text-align: center">
-                                         <th scope="row">
-                                            <img src="img/carrito/postre01.jpg" alt="Image" style="width:5rem" />
+                                        <th scope="row">
+                                            <img src="img/carrito/postre01.jpg" alt="Image" style="width: 5rem" />
                                         </th>
                                         <td>Postre</td>
                                         <td>5</td>
                                         <td>2</td>
                                         <td>10</td>
-                                         <td>
+                                        <td>
                                             <button class="tm-btn tm-btn-danger"><i class="fas fa-trash-alt"></i></button>
                                         </td>
                                     </tr>
@@ -325,6 +325,7 @@ https://templatemo.com/tm-539-simple-house
                     </div>
                     <!-- gallery page 4 -->
                 </div>
+            </div>
         </main>
 
         <footer class="tm-footer text-center">

@@ -45,7 +45,7 @@
                                             <span class="input-group-text" id="inputGroupPrepend2">@</span>
                                             <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
                                         </div>
-                                    </div>                             
+                                    </div>
                                     <div class="col-md-10">
                                         <label for="validationDefault03" class="form-label">Dirección</label>
                                         <input type="text" class="form-control" id="validationDefault03" required>
@@ -66,10 +66,17 @@
                                         <label for="validationDefault01" class="form-label">Estado</label>
                                         <input type="number" class="form-control" id="validationDefault01" value="Mark" required>
                                     </div>
+
+                                    <div class="col-md-8">
+                                        <label for="validationDefault01" class="form-label">Imagen</label>
+                                        <input type="file" class="form-control" aria-label="file example" required>
+                                        <div class="invalid-feedback">Example invalid form file feedback</div>
+                                    </div>
+
                                     <br />
                                     <div class="col-12 text-center">
-                                        <button class="btn btn-success" type="submit"><i class="fas fa-save"></i> Guardar y Salir</button>
-                                        <button class="btn btn-danger" type="submit"><i class="fas fa-times-circle"></i> Cancelar</button>
+                                        <button class="btn btn-success" type="submit"><i class="fas fa-save"></i>Guardar y Salir</button>
+                                        <button class="btn btn-danger" type="submit"><i class="fas fa-times-circle"></i>Cancelar</button>
                                     </div>
                                 </form>
                             </div>
