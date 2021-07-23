@@ -73,6 +73,7 @@
     <Content Include="AdminPag\Productos.aspx" />
     <Content Include="AdminPag\Proveedores.aspx" />
     <Content Include="AdminPag\Usuarios.aspx" />
+    <Content Include="AdminPag\UsuForm.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="css\all.min.css" />
     <Content Include="css\main.css" />
@@ -186,6 +187,13 @@
     </Compile>
     <Compile Include="AdminPag\Usuarios.aspx.designer.cs">
       <DependentUpon>Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPag\UsuForm.aspx.cs">
+      <DependentUpon>UsuForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPag\UsuForm.aspx.designer.cs">
+      <DependentUpon>UsuForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>

@@ -26,24 +26,25 @@
                             <a class="nav-link active" aria-current="page" href="/main.aspx">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/AdminPag/Usuarios.aspx">Registro Usuarios</a>
+                            <a class="nav-link" href="/AdminPag/Usuarios.aspx"><i class="fas fa-users"></i>Usuarios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/AdminPag/Proveedores.aspx">Registro Proveedores</a>
+                            <a class="nav-link" href="/AdminPag/Proveedores.aspx"><i class="fas fa-truck-moving"></i> Proveedores</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/AdminPag/Productos.aspx">Registro Productos</a>
+                            <a class="nav-link" href="/AdminPag/Productos.aspx"><i class="fas fa-dolly-flatbed"></i> Productos</a>
                         </li>
                     </ul>
                 </div>
                 <div class="text-lg-center">
-                    <button type="button"  class="btn btn-outline-success"> Cerrar Sesion </button>                   
+                    <button type="button"  class="btn btn-outline-success"> Cerrar Sesión </button>                   
                 </div>
             </div>
         </nav>
     </header> <!-- HEADER -->
     <form id="form1" runat="server">
-        <iframe src="pedido.aspx" style="display:block; width:100%; border:none; height:100%;scroll-padding-block:unset" ></iframe>
+        <h3>Bienvenido: </h3>
+        <h3>Se cauteloso con la informacion que se presenta.</h3>
     </form>
 </body>
 
